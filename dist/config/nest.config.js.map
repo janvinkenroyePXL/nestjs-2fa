@@ -1,0 +1,1 @@
+{"version":3,"file":"nest.config.js","sourceRoot":"","sources":["../../src/config/nest.config.ts"],"names":[],"mappings":";;AAEA,MAAM,WAAW,GAAiB,EAAC,CAAA;AACjC;IACE,GAAG,EAAE,EAAE,CAAC,YAAY,CAAC,2BAA2B,CAAC;QACjD,IAAI,CAAA;IAAE,EAAE,CAAC,YAAY,CAAC,kCAAkC,CAAC;QAC3D,AAD4D,JAAA,CAAA;CAC3D;AAGH,kBAAe,WAAW,CAAC"}

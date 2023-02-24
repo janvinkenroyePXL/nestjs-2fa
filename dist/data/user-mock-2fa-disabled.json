@@ -1,0 +1,39 @@
+{
+    "user": {
+        "id": 123,
+        "username": "jan@tgmail.com",
+        "email": "jan@gmail.com",
+        "firstName": "Jan",
+        "lastName": "Vinkenroye",
+        "roles": [
+            "ROLE_SYSTEM",
+            "ROLE_APP",
+            "ROLE_DOMAIN",
+            "ROLE_MAIL"
+        ],
+        "status": "ok",
+        "language": "en",
+        "organisation": {
+            "id": 123,
+            "name": "My Company",
+            "street": "Test-Street",
+            "houseNumber": "23",
+            "zip": "1000",
+            "city": "Test City",
+            "reseller": null
+        },
+        "country": {
+            "id": "BE",
+            "name": "Belgium"
+        },
+        "fullname": "Jan Vinkenroye",
+        "teams": [
+            {
+                "id": 123,
+                "name": "MyTeam",
+                "autoAddSshkey": false
+            }
+        ],
+        "has2faEnabled": false
+    }
+}

@@ -1,0 +1,3666 @@
+{
+    "total": 1282,
+    "systems": [
+        {
+            "id": 3159,
+            "uid": "743cfe4f-0eef-bb84-2989-6da7233722f0",
+            "hostname": "paddle-cl12-docker2.level27.eu",
+            "fqdn": "379a14600.l27powered.eu",
+            "name": "paddle-cl12-docker2",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 4,
+            "memory": 10,
+            "disk": "40.0",
+            "monitoringEnabled": true,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 1,
+                "name": "Level27 BV"
+            },
+            "systemimage": {
+                "id": 240,
+                "name": "ubuntu_2004lts_server",
+                "externalId": "ubuntu_2004lts_server",
+                "templateId": 1,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS",
+                "osVersionId": 32
+            },
+            "operatingsystemVersion": {
+                "id": 32,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 24,
+                "name": "Brussel Interxion 1 Zone 2 (IX1-2)"
+            },
+            "networks": [
+                {
+                    "id": 4787,
+                    "mac": "52:54:5f:2e:09:f5",
+                    "networkId": 636,
+                    "name": "level27_internal_22",
+                    "uid": "fb7f5b41-e584-f264-c982-b729950c5dd4",
+                    "netIpv4": "172.20.217.0",
+                    "netGatewayv4": "172.20.217.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 229,
+                    "ips": [
+                        {
+                            "id": 6480,
+                            "publicIpv4": null,
+                            "ipv4": "172.20.217.212",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "paddle-cl12-docker2.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 178
+                },
+                {
+                    "id": 4788,
+                    "mac": "52:54:f7:79:f2:93",
+                    "networkId": 719,
+                    "name": "level27_cust_124",
+                    "uid": "16610556-d10a-0bb4-b99b-97668cdb7fc7",
+                    "netIpv4": "172.20.107.0",
+                    "netGatewayv4": "172.20.107.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": null,
+                    "netPublic": false,
+                    "netCustomer": true,
+                    "netInternal": false,
+                    "vlan": 380,
+                    "ips": [
+                        {
+                            "id": 6481,
+                            "publicIpv4": null,
+                            "ipv4": "172.20.107.5",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "paddle-cl12-docker2.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [],
+                    "destinationv6": [],
+                    "netslotNumber": 179
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "cpu": {
+                    "unit": "%",
+                    "max": 100,
+                    "value": 1.0060069444444792452486581169068813323974609375,
+                    "statusCategory": "grey"
+                },
+                "diskspace": {
+                    "unit": "GB",
+                    "max": 35.370574951171875,
+                    "value": 5.4308319091796875,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "max": 9.7322540283203125,
+                    "value": 0.33452606201171875,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": 1648545159,
+            "billingStatus": "ok",
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 1951,
+                "name": "vm047"
+            }
+        },
+        {
+            "id": 3158,
+            "uid": "141d7cf0-5f14-d054-695c-9cd27f68cf58",
+            "hostname": "paddle-cl12-docker1.level27.eu",
+            "fqdn": "c45cbad64.l27powered.eu",
+            "name": "paddle-cl12-docker1",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 4,
+            "memory": 10,
+            "disk": "40.0",
+            "monitoringEnabled": true,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 1,
+                "name": "Level27 BV"
+            },
+            "systemimage": {
+                "id": 240,
+                "name": "ubuntu_2004lts_server",
+                "externalId": "ubuntu_2004lts_server",
+                "templateId": 1,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS",
+                "osVersionId": 32
+            },
+            "operatingsystemVersion": {
+                "id": 32,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 24,
+                "name": "Brussel Interxion 1 Zone 2 (IX1-2)"
+            },
+            "networks": [
+                {
+                    "id": 4785,
+                    "mac": "52:54:44:f1:3c:2c",
+                    "networkId": 636,
+                    "name": "level27_internal_22",
+                    "uid": "fb7f5b41-e584-f264-c982-b729950c5dd4",
+                    "netIpv4": "172.20.217.0",
+                    "netGatewayv4": "172.20.217.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 229,
+                    "ips": [
+                        {
+                            "id": 6478,
+                            "publicIpv4": null,
+                            "ipv4": "172.20.217.211",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "paddle-cl12-docker1.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 176
+                },
+                {
+                    "id": 4786,
+                    "mac": "52:54:13:22:79:8a",
+                    "networkId": 719,
+                    "name": "level27_cust_124",
+                    "uid": "16610556-d10a-0bb4-b99b-97668cdb7fc7",
+                    "netIpv4": "172.20.107.0",
+                    "netGatewayv4": "172.20.107.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": null,
+                    "netPublic": false,
+                    "netCustomer": true,
+                    "netInternal": false,
+                    "vlan": 380,
+                    "ips": [
+                        {
+                            "id": 6479,
+                            "publicIpv4": null,
+                            "ipv4": "172.20.107.4",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "paddle-cl12-docker1.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [],
+                    "destinationv6": [],
+                    "netslotNumber": 177
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "cpu": {
+                    "unit": "%",
+                    "max": 100,
+                    "value": 1.11336805555544060553074814379215240478515625,
+                    "statusCategory": "grey"
+                },
+                "diskspace": {
+                    "unit": "GB",
+                    "max": 35.370574951171875,
+                    "value": 7.81424713134765625,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "max": 9.73226165771484375,
+                    "value": 1.09355926513671875,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": 1648544317,
+            "billingStatus": "ok",
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 1941,
+                "name": "vm043"
+            }
+        },
+        {
+            "id": 3157,
+            "uid": "f08539d2-4967-3c14-c9a1-9f2786e91491",
+            "hostname": "paddle-cl12-db1.level27.eu",
+            "fqdn": "9ea570d8c.l27powered.eu",
+            "name": "paddle-cl12-db1",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 2,
+            "memory": 4,
+            "disk": "60.0",
+            "monitoringEnabled": true,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 1,
+                "name": "Level27 BV"
+            },
+            "systemimage": {
+                "id": 240,
+                "name": "ubuntu_2004lts_server",
+                "externalId": "ubuntu_2004lts_server",
+                "templateId": 1,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS",
+                "osVersionId": 32
+            },
+            "operatingsystemVersion": {
+                "id": 32,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 23,
+                "name": "Brussel Interxion 1 Zone 1 (IX1-1)"
+            },
+            "networks": [
+                {
+                    "id": 4781,
+                    "mac": "52:54:ad:e7:74:a4",
+                    "networkId": 636,
+                    "name": "level27_internal_22",
+                    "uid": "fb7f5b41-e584-f264-c982-b729950c5dd4",
+                    "netIpv4": "172.20.217.0",
+                    "netGatewayv4": "172.20.217.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 229,
+                    "ips": [
+                        {
+                            "id": 6474,
+                            "publicIpv4": null,
+                            "ipv4": "172.20.217.210",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "paddle-cl12-db1.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 172
+                },
+                {
+                    "id": 4784,
+                    "mac": "52:54:58:39:23:7f",
+                    "networkId": 719,
+                    "name": "level27_cust_124",
+                    "uid": "16610556-d10a-0bb4-b99b-97668cdb7fc7",
+                    "netIpv4": "172.20.107.0",
+                    "netGatewayv4": "172.20.107.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": null,
+                    "netPublic": false,
+                    "netCustomer": true,
+                    "netInternal": false,
+                    "vlan": 380,
+                    "ips": [
+                        {
+                            "id": 6477,
+                            "publicIpv4": null,
+                            "ipv4": "172.20.107.3",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "paddle-cl12-db1.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [],
+                    "destinationv6": [],
+                    "netslotNumber": 175
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "cpu": {
+                    "unit": "%",
+                    "max": 100,
+                    "value": 1.5472222222223450671663158573210239410400390625,
+                    "statusCategory": "grey"
+                },
+                "diskspace": {
+                    "unit": "GB",
+                    "max": 55.056732177734375,
+                    "value": 6.5290985107421875,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "max": 3.84398651123046875,
+                    "value": 0.581729888916015625,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": 1648540165,
+            "billingStatus": "ok",
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 1892,
+                "name": "hv041"
+            }
+        },
+        {
+            "id": 3156,
+            "uid": "4570920e-3954-c544-a117-fac58a30a8da",
+            "hostname": "paddle-cl12-web1.level27.eu",
+            "fqdn": "9c6e8a64f.l27powered.eu",
+            "name": "paddle-cl12-web1",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 4,
+            "memory": 8,
+            "disk": "200.0",
+            "monitoringEnabled": true,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 1,
+                "name": "Level27 BV"
+            },
+            "systemimage": {
+                "id": 240,
+                "name": "ubuntu_2004lts_server",
+                "externalId": "ubuntu_2004lts_server",
+                "templateId": 1,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS",
+                "osVersionId": 32
+            },
+            "operatingsystemVersion": {
+                "id": 32,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 23,
+                "name": "Brussel Interxion 1 Zone 1 (IX1-1)"
+            },
+            "networks": [
+                {
+                    "id": 4778,
+                    "mac": "52:54:03:22:9d:3f",
+                    "networkId": 629,
+                    "name": "level27_public_12",
+                    "uid": "c69069c5-42e2-a8e4-6dff-6012f967c772",
+                    "netIpv4": "185.3.217.0",
+                    "netGatewayv4": "185.3.217.1",
+                    "netMaskv4": 24,
+                    "netIpv6": "2a02:5b40:0004:0228:0000:0000:0000:0000",
+                    "netGatewayv6": "2a02:5b40:0004:0228:0000:0000:0000:0001",
+                    "netMaskv6": 64,
+                    "netPublic": true,
+                    "netCustomer": false,
+                    "netInternal": false,
+                    "vlan": 228,
+                    "ips": [
+                        {
+                            "id": 6470,
+                            "publicIpv4": "185.3.217.207",
+                            "ipv4": null,
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "paddle-cl12-web1.level27.eu"
+                        },
+                        {
+                            "id": 6471,
+                            "publicIpv4": null,
+                            "ipv4": null,
+                            "publicIpv6": "2a02:5b40:0004:0228:0000:0000:0000:00bc",
+                            "ipv6": null,
+                            "hostname": "paddle-cl12-web1.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 169
+                },
+                {
+                    "id": 4779,
+                    "mac": "52:54:38:44:76:67",
+                    "networkId": 636,
+                    "name": "level27_internal_22",
+                    "uid": "fb7f5b41-e584-f264-c982-b729950c5dd4",
+                    "netIpv4": "172.20.217.0",
+                    "netGatewayv4": "172.20.217.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 229,
+                    "ips": [
+                        {
+                            "id": 6472,
+                            "publicIpv4": null,
+                            "ipv4": "172.20.217.208",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "paddle-cl12-web1.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "10.0.0.0\/8",
+                        "172.16.0.0\/12",
+                        "192.168.0.0\/16"
+                    ],
+                    "destinationv6": [],
+                    "netslotNumber": 170
+                },
+                {
+                    "id": 4783,
+                    "mac": "52:54:72:34:6b:7a",
+                    "networkId": 719,
+                    "name": "level27_cust_124",
+                    "uid": "16610556-d10a-0bb4-b99b-97668cdb7fc7",
+                    "netIpv4": "172.20.107.0",
+                    "netGatewayv4": "172.20.107.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": null,
+                    "netPublic": false,
+                    "netCustomer": true,
+                    "netInternal": false,
+                    "vlan": 380,
+                    "ips": [
+                        {
+                            "id": 6476,
+                            "publicIpv4": null,
+                            "ipv4": "172.20.107.2",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "paddle-cl12-web1.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [],
+                    "destinationv6": [],
+                    "netslotNumber": 174
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "cpu": {
+                    "unit": "%",
+                    "max": 100,
+                    "value": 0.597743055555639557496760971844196319580078125,
+                    "statusCategory": "grey"
+                },
+                "diskspace": {
+                    "unit": "GB",
+                    "max": 192.85959625244140625,
+                    "value": 13.523052215576171875,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "max": 7.78676605224609375,
+                    "value": 0.5172576904296875,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": 1648539331,
+            "billingStatus": "ok",
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 1891,
+                "name": "hv042"
+            }
+        },
+        {
+            "id": 3153,
+            "uid": "b315ed55-e3b3-e9f4-8df4-494f54e6103f",
+            "hostname": "erpnext-prod.localitel.be",
+            "fqdn": "aa99119e5.l27powered.eu",
+            "name": "erpnext-prod.localitel.be",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 2,
+            "memory": 4,
+            "disk": "100.0",
+            "monitoringEnabled": false,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 1,
+                "name": "Level27 BV"
+            },
+            "systemimage": {
+                "id": 240,
+                "name": "ubuntu_2004lts_server",
+                "externalId": "ubuntu_2004lts_server",
+                "templateId": 1,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS",
+                "osVersionId": 32
+            },
+            "operatingsystemVersion": {
+                "id": 32,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 27,
+                "name": "Brussel LCL Diegem Zone 1 (LCL1)"
+            },
+            "networks": [
+                {
+                    "id": 4776,
+                    "mac": "52:54:34:b9:b6:56",
+                    "networkId": 562,
+                    "name": "level27_public_5",
+                    "uid": "73142f85-2e06-38e4-3521-ebc7f7a18a8a",
+                    "netIpv4": "194.32.152.0",
+                    "netGatewayv4": "194.32.152.1",
+                    "netMaskv4": 24,
+                    "netIpv6": "2a02:5b41:0004:0401:0000:0000:0000:0000",
+                    "netGatewayv6": "2a02:5b41:0004:0401:0000:0000:0000:0001",
+                    "netMaskv6": 64,
+                    "netPublic": true,
+                    "netCustomer": false,
+                    "netInternal": false,
+                    "vlan": 401,
+                    "ips": [
+                        {
+                            "id": 6467,
+                            "publicIpv4": "194.32.152.12",
+                            "ipv4": null,
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "erpnext-prod.localitel.be"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 167
+                },
+                {
+                    "id": 4777,
+                    "mac": "52:54:b6:34:78:85",
+                    "networkId": 556,
+                    "name": "level27_internal_4",
+                    "uid": "e0c3fe5a-2b75-0044-1936-ec5e6fda16ab",
+                    "netIpv4": "172.25.152.0",
+                    "netGatewayv4": "172.25.152.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 402,
+                    "ips": [
+                        {
+                            "id": 6468,
+                            "publicIpv4": null,
+                            "ipv4": "172.25.152.11",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "erpnext-prod.localitel.be"
+                        }
+                    ],
+                    "destinationv4": [
+                        "10.0.0.0\/8",
+                        "172.16.0.0\/12",
+                        "192.168.0.0\/16"
+                    ],
+                    "destinationv6": [],
+                    "netslotNumber": 168
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "diskspace": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "cpu": {
+                    "unit": "%",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": null,
+            "billingStatus": null,
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 3043,
+                "name": "hv063"
+            }
+        },
+        {
+            "id": 3151,
+            "uid": "e0e41d64-69fd-a5f4-4d40-53da640ef621",
+            "hostname": "robin-stagek8s-worker3.level27.eu",
+            "fqdn": "956c4676b.l27powered.eu",
+            "name": "robin-stagek8s-worker3",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 2,
+            "memory": 4,
+            "disk": "30.0",
+            "monitoringEnabled": false,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 1,
+                "name": "Level27 BV"
+            },
+            "systemimage": {
+                "id": 240,
+                "name": "ubuntu_2004lts_server",
+                "externalId": "ubuntu_2004lts_server",
+                "templateId": 1,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS",
+                "osVersionId": 32
+            },
+            "operatingsystemVersion": {
+                "id": 32,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 27,
+                "name": "Brussel LCL Diegem Zone 1 (LCL1)"
+            },
+            "networks": [
+                {
+                    "id": 4774,
+                    "mac": "52:54:80:3d:31:f7",
+                    "networkId": 602,
+                    "name": "level27_public_9",
+                    "uid": "6bd38921-36bf-1bf4-0586-7ac8a05ac3d8",
+                    "netIpv4": "100.83.11.64",
+                    "netGatewayv4": "100.83.11.65",
+                    "netMaskv4": 27,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": true,
+                    "netCustomer": false,
+                    "netInternal": false,
+                    "vlan": 413,
+                    "ips": [
+                        {
+                            "id": 6465,
+                            "publicIpv4": null,
+                            "ipv4": "100.83.11.71",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "robin-stagek8s-worker3.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 165
+                },
+                {
+                    "id": 4775,
+                    "mac": "52:54:28:55:b1:87",
+                    "networkId": 571,
+                    "name": "level27_internal_6",
+                    "uid": "34bf2203-8918-d374-8d47-2948c2819e6e",
+                    "netIpv4": "172.25.17.0",
+                    "netGatewayv4": "172.25.17.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 410,
+                    "ips": [
+                        {
+                            "id": 6466,
+                            "publicIpv4": null,
+                            "ipv4": "172.25.17.73",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "robin-stagek8s-worker3.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "10.0.0.0\/8",
+                        "172.16.0.0\/12",
+                        "192.168.0.0\/16"
+                    ],
+                    "destinationv6": [],
+                    "netslotNumber": 166
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "diskspace": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "cpu": {
+                    "unit": "%",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": 1648204025,
+            "billingStatus": "ok",
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 3115,
+                "name": "hv062"
+            }
+        },
+        {
+            "id": 3150,
+            "uid": "04554045-12c9-c4e4-7968-7ccb65dccb2a",
+            "hostname": "robin-stagek8s-worker2.level27.eu",
+            "fqdn": "f0644b600.l27powered.eu",
+            "name": "robin-stagek8s-worker2",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 2,
+            "memory": 4,
+            "disk": "30.0",
+            "monitoringEnabled": false,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 1,
+                "name": "Level27 BV"
+            },
+            "systemimage": {
+                "id": 240,
+                "name": "ubuntu_2004lts_server",
+                "externalId": "ubuntu_2004lts_server",
+                "templateId": 1,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS",
+                "osVersionId": 32
+            },
+            "operatingsystemVersion": {
+                "id": 32,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 27,
+                "name": "Brussel LCL Diegem Zone 1 (LCL1)"
+            },
+            "networks": [
+                {
+                    "id": 4772,
+                    "mac": "52:54:fc:ff:e5:54",
+                    "networkId": 602,
+                    "name": "level27_public_9",
+                    "uid": "6bd38921-36bf-1bf4-0586-7ac8a05ac3d8",
+                    "netIpv4": "100.83.11.64",
+                    "netGatewayv4": "100.83.11.65",
+                    "netMaskv4": 27,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": true,
+                    "netCustomer": false,
+                    "netInternal": false,
+                    "vlan": 413,
+                    "ips": [
+                        {
+                            "id": 6463,
+                            "publicIpv4": null,
+                            "ipv4": "100.83.11.70",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "robin-stagek8s-worker2.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 163
+                },
+                {
+                    "id": 4773,
+                    "mac": "52:54:05:2f:fb:83",
+                    "networkId": 571,
+                    "name": "level27_internal_6",
+                    "uid": "34bf2203-8918-d374-8d47-2948c2819e6e",
+                    "netIpv4": "172.25.17.0",
+                    "netGatewayv4": "172.25.17.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 410,
+                    "ips": [
+                        {
+                            "id": 6464,
+                            "publicIpv4": null,
+                            "ipv4": "172.25.17.72",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "robin-stagek8s-worker2.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "10.0.0.0\/8",
+                        "172.16.0.0\/12",
+                        "192.168.0.0\/16"
+                    ],
+                    "destinationv6": [],
+                    "netslotNumber": 164
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "diskspace": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "cpu": {
+                    "unit": "%",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": 1648203810,
+            "billingStatus": "ok",
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 3028,
+                "name": "hv060"
+            }
+        },
+        {
+            "id": 3149,
+            "uid": "afaeabad-0263-2424-f594-565d8b5829b7",
+            "hostname": "robin-stagek8s-worker1.level27.eu",
+            "fqdn": "df13078df.l27powered.eu",
+            "name": "robin-stagek8s-worker1",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 2,
+            "memory": 4,
+            "disk": "30.0",
+            "monitoringEnabled": false,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 1,
+                "name": "Level27 BV"
+            },
+            "systemimage": {
+                "id": 240,
+                "name": "ubuntu_2004lts_server",
+                "externalId": "ubuntu_2004lts_server",
+                "templateId": 1,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS",
+                "osVersionId": 32
+            },
+            "operatingsystemVersion": {
+                "id": 32,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 27,
+                "name": "Brussel LCL Diegem Zone 1 (LCL1)"
+            },
+            "networks": [
+                {
+                    "id": 4770,
+                    "mac": "52:54:c5:c4:64:08",
+                    "networkId": 602,
+                    "name": "level27_public_9",
+                    "uid": "6bd38921-36bf-1bf4-0586-7ac8a05ac3d8",
+                    "netIpv4": "100.83.11.64",
+                    "netGatewayv4": "100.83.11.65",
+                    "netMaskv4": 27,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": true,
+                    "netCustomer": false,
+                    "netInternal": false,
+                    "vlan": 413,
+                    "ips": [
+                        {
+                            "id": 6461,
+                            "publicIpv4": null,
+                            "ipv4": "100.83.11.69",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "robin-stagek8s-worker1.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 161
+                },
+                {
+                    "id": 4771,
+                    "mac": "52:54:dc:ed:f4:33",
+                    "networkId": 571,
+                    "name": "level27_internal_6",
+                    "uid": "34bf2203-8918-d374-8d47-2948c2819e6e",
+                    "netIpv4": "172.25.17.0",
+                    "netGatewayv4": "172.25.17.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 410,
+                    "ips": [
+                        {
+                            "id": 6462,
+                            "publicIpv4": null,
+                            "ipv4": "172.25.17.70",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "robin-stagek8s-worker1.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "10.0.0.0\/8",
+                        "172.16.0.0\/12",
+                        "192.168.0.0\/16"
+                    ],
+                    "destinationv6": [],
+                    "netslotNumber": 162
+                },
+                {
+                    "id": 4792,
+                    "mac": "52:54:7b:88:77:ad",
+                    "networkId": 541,
+                    "name": "level27_public_4",
+                    "uid": "090a0f08-5d7e-3674-695c-a5b3a72bda62",
+                    "netIpv4": "185.3.216.0",
+                    "netGatewayv4": "185.3.216.1",
+                    "netMaskv4": 24,
+                    "netIpv6": "2a02:5b40:0004:0224:0000:0000:0000:0000",
+                    "netGatewayv6": "2a02:5b40:0004:0224:0000:0000:0000:0001",
+                    "netMaskv6": 64,
+                    "netPublic": true,
+                    "netCustomer": false,
+                    "netInternal": false,
+                    "vlan": 224,
+                    "ips": [
+                        {
+                            "id": 6485,
+                            "publicIpv4": "185.3.216.70",
+                            "ipv4": null,
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "robin-stage-k8s.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [],
+                    "destinationv6": [],
+                    "netslotNumber": 183
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "diskspace": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "cpu": {
+                    "unit": "%",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": 1648203495,
+            "billingStatus": "ok",
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 3050,
+                "name": "hv067"
+            }
+        },
+        {
+            "id": 3148,
+            "uid": "82ab095b-f8ff-8394-ad1b-8c8e1cd47bbc",
+            "hostname": "robin-stagek8s-master.level27.eu",
+            "fqdn": "7159a89a4.l27powered.eu",
+            "name": "robin-stagek8s-master",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 2,
+            "memory": 4,
+            "disk": "30.0",
+            "monitoringEnabled": false,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 1,
+                "name": "Level27 BV"
+            },
+            "systemimage": {
+                "id": 240,
+                "name": "ubuntu_2004lts_server",
+                "externalId": "ubuntu_2004lts_server",
+                "templateId": 1,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS",
+                "osVersionId": 32
+            },
+            "operatingsystemVersion": {
+                "id": 32,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 27,
+                "name": "Brussel LCL Diegem Zone 1 (LCL1)"
+            },
+            "networks": [
+                {
+                    "id": 4768,
+                    "mac": "52:54:87:a8:3e:18",
+                    "networkId": 602,
+                    "name": "level27_public_9",
+                    "uid": "6bd38921-36bf-1bf4-0586-7ac8a05ac3d8",
+                    "netIpv4": "100.83.11.64",
+                    "netGatewayv4": "100.83.11.65",
+                    "netMaskv4": 27,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": true,
+                    "netCustomer": false,
+                    "netInternal": false,
+                    "vlan": 413,
+                    "ips": [
+                        {
+                            "id": 6459,
+                            "publicIpv4": null,
+                            "ipv4": "100.83.11.68",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "robin-stagek8s-master.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 159
+                },
+                {
+                    "id": 4769,
+                    "mac": "52:54:24:43:d8:79",
+                    "networkId": 571,
+                    "name": "level27_internal_6",
+                    "uid": "34bf2203-8918-d374-8d47-2948c2819e6e",
+                    "netIpv4": "172.25.17.0",
+                    "netGatewayv4": "172.25.17.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 410,
+                    "ips": [
+                        {
+                            "id": 6460,
+                            "publicIpv4": null,
+                            "ipv4": "172.25.17.20",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "robin-stagek8s-master.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "10.0.0.0\/8",
+                        "172.16.0.0\/12",
+                        "192.168.0.0\/16"
+                    ],
+                    "destinationv6": [],
+                    "netslotNumber": 160
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "diskspace": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "cpu": {
+                    "unit": "%",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": 1648203152,
+            "billingStatus": "ok",
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 3048,
+                "name": "hv065"
+            }
+        },
+        {
+            "id": 3144,
+            "uid": "c59a8733-2ee6-a884-7d62-91dab3e0d392",
+            "hostname": "8522e5775.l27powered.eu",
+            "fqdn": "8522e5775.l27powered.eu",
+            "name": "livalos-web1",
+            "type": null,
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 2,
+            "memory": 3,
+            "disk": "60.0",
+            "monitoringEnabled": false,
+            "managementType": "professional",
+            "organisation": {
+                "id": 5036,
+                "name": "Livalos"
+            },
+            "systemimage": null,
+            "operatingsystemVersion": {
+                "id": 32,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS"
+            },
+            "providerId": null,
+            "provider": null,
+            "providerApi": null,
+            "systemproviderConfiguration": null,
+            "region": null,
+            "zone": null,
+            "networks": [
+                {
+                    "id": 4766,
+                    "mac": "02:f5:dd:34:58:80",
+                    "networkId": null,
+                    "name": null,
+                    "uid": null,
+                    "netIpv4": null,
+                    "netGatewayv4": null,
+                    "netMaskv4": null,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": null,
+                    "netPublic": null,
+                    "netCustomer": null,
+                    "netInternal": null,
+                    "vlan": null,
+                    "ips": [
+                        {
+                            "id": 6456,
+                            "publicIpv4": "3.72.187.75",
+                            "ipv4": "100.96.0.4",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "8522e5775.l27powered.eu"
+                        },
+                        {
+                            "id": 6457,
+                            "publicIpv4": null,
+                            "ipv4": null,
+                            "publicIpv6": "2a05:d014:055d:d600:0000:0000:0000:0004",
+                            "ipv6": null,
+                            "hostname": "8522e5775.l27powered.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 157
+                }
+            ],
+            "publicNetworking": false,
+            "statsSummary": {
+                "diskspace": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "cpu": {
+                    "unit": "%",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": 1650672000,
+            "billingStatus": "ok",
+            "externalInfo": null,
+            "parentsystem": null
+        },
+        {
+            "id": 3142,
+            "uid": "5b1c61f0-87ca-e114-015c-93ddfc6e58c8",
+            "hostname": "anais-climalife-web1.level27.eu",
+            "fqdn": "fb131c585.l27powered.eu",
+            "name": "anais-climalife-web1",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 2,
+            "memory": 4,
+            "disk": "60.0",
+            "monitoringEnabled": false,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 1,
+                "name": "Level27 BV"
+            },
+            "systemimage": {
+                "id": 240,
+                "name": "ubuntu_2004lts_server",
+                "externalId": "ubuntu_2004lts_server",
+                "templateId": 1,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS",
+                "osVersionId": 32
+            },
+            "operatingsystemVersion": {
+                "id": 32,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 27,
+                "name": "Brussel LCL Diegem Zone 1 (LCL1)"
+            },
+            "networks": [
+                {
+                    "id": 4764,
+                    "mac": "52:54:b2:34:1d:62",
+                    "networkId": 539,
+                    "name": "level27_public_3",
+                    "uid": "6d1eef01-8c2b-7e64-6101-9125b43ad86f",
+                    "netIpv4": "91.223.195.0",
+                    "netGatewayv4": "91.223.195.1",
+                    "netMaskv4": 24,
+                    "netIpv6": "2a02:5b40:0004:0219:0000:0000:0000:0000",
+                    "netGatewayv6": "2a02:5b40:0004:0219:0000:0000:0000:0001",
+                    "netMaskv6": 64,
+                    "netPublic": true,
+                    "netCustomer": false,
+                    "netInternal": false,
+                    "vlan": 219,
+                    "ips": [
+                        {
+                            "id": 6453,
+                            "publicIpv4": "91.223.195.18",
+                            "ipv4": null,
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "anais-climalife-web1.level27.eu"
+                        },
+                        {
+                            "id": 6454,
+                            "publicIpv4": null,
+                            "ipv4": null,
+                            "publicIpv6": "2a02:5b40:0004:0219:0000:0000:0000:000e",
+                            "ipv6": null,
+                            "hostname": "anais-climalife-web1.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 155
+                },
+                {
+                    "id": 4765,
+                    "mac": "52:54:5a:1a:e5:eb",
+                    "networkId": 540,
+                    "name": "level27_internal_2",
+                    "uid": "4121bf88-8bf1-8d64-f5b7-041dc558c4c0",
+                    "netIpv4": "172.20.195.0",
+                    "netGatewayv4": "172.20.195.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 220,
+                    "ips": [
+                        {
+                            "id": 6455,
+                            "publicIpv4": null,
+                            "ipv4": "172.20.195.17",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "anais-climalife-web1.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "10.0.0.0\/8",
+                        "172.16.0.0\/12",
+                        "192.168.0.0\/16"
+                    ],
+                    "destinationv6": [],
+                    "netslotNumber": 156
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "diskspace": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "cpu": {
+                    "unit": "%",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": 1647967681,
+            "billingStatus": "ok",
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 3043,
+                "name": "hv063"
+            }
+        },
+        {
+            "id": 3141,
+            "uid": "939212cf-34ac-54a4-7dee-3aec10cb8d37",
+            "hostname": "bitsoflove-borglamb1.level27.eu",
+            "fqdn": "74c40653d.l27powered.eu",
+            "name": "bitsoflove-borglamb1",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 2,
+            "memory": 4,
+            "disk": "60.0",
+            "monitoringEnabled": true,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 2655,
+                "name": "Bits of Love BVBA"
+            },
+            "systemimage": {
+                "id": 240,
+                "name": "ubuntu_2004lts_server",
+                "externalId": "ubuntu_2004lts_server",
+                "templateId": 1,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS",
+                "osVersionId": 32
+            },
+            "operatingsystemVersion": {
+                "id": 32,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 27,
+                "name": "Brussel LCL Diegem Zone 1 (LCL1)"
+            },
+            "networks": [
+                {
+                    "id": 4762,
+                    "mac": "52:54:e1:95:0d:84",
+                    "networkId": 539,
+                    "name": "level27_public_3",
+                    "uid": "6d1eef01-8c2b-7e64-6101-9125b43ad86f",
+                    "netIpv4": "91.223.195.0",
+                    "netGatewayv4": "91.223.195.1",
+                    "netMaskv4": 24,
+                    "netIpv6": "2a02:5b40:0004:0219:0000:0000:0000:0000",
+                    "netGatewayv6": "2a02:5b40:0004:0219:0000:0000:0000:0001",
+                    "netMaskv6": 64,
+                    "netPublic": true,
+                    "netCustomer": false,
+                    "netInternal": false,
+                    "vlan": 219,
+                    "ips": [
+                        {
+                            "id": 6450,
+                            "publicIpv4": "91.223.195.17",
+                            "ipv4": null,
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "bitsoflove-borglamb1.level27.eu"
+                        },
+                        {
+                            "id": 6451,
+                            "publicIpv4": null,
+                            "ipv4": null,
+                            "publicIpv6": "2a02:5b40:0004:0219:0000:0000:0000:000d",
+                            "ipv6": null,
+                            "hostname": "bitsoflove-borglamb1.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 153
+                },
+                {
+                    "id": 4763,
+                    "mac": "52:54:00:19:45:f5",
+                    "networkId": 540,
+                    "name": "level27_internal_2",
+                    "uid": "4121bf88-8bf1-8d64-f5b7-041dc558c4c0",
+                    "netIpv4": "172.20.195.0",
+                    "netGatewayv4": "172.20.195.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 220,
+                    "ips": [
+                        {
+                            "id": 6452,
+                            "publicIpv4": null,
+                            "ipv4": "172.20.195.16",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "bitsoflove-borglamb1.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "10.0.0.0\/8",
+                        "172.16.0.0\/12",
+                        "192.168.0.0\/16"
+                    ],
+                    "destinationv6": [],
+                    "netslotNumber": 154
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "cpu": {
+                    "unit": "%",
+                    "max": 100,
+                    "value": 1.8453472222220881349130650050938129425048828125,
+                    "statusCategory": "grey"
+                },
+                "diskspace": {
+                    "unit": "GB",
+                    "max": 55.056732177734375,
+                    "value": 9.55722808837890625,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "max": 3.83963775634765625,
+                    "value": 1.1220550537109375,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": 1647940455,
+            "billingStatus": "ok",
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 3115,
+                "name": "hv062"
+            }
+        },
+        {
+            "id": 3136,
+            "uid": "8eca7ea7-2163-5f54-b909-f2f86659ae94",
+            "hostname": "xibo-digitalsignage.level27.eu",
+            "fqdn": "43f24ba56.l27powered.eu",
+            "name": "xibo-digitalsignage",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 2,
+            "memory": 4,
+            "disk": "30.0",
+            "monitoringEnabled": true,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 1,
+                "name": "Level27 BV"
+            },
+            "systemimage": {
+                "id": 188,
+                "name": "ubuntu_1804lts_server",
+                "externalId": "",
+                "templateId": 1,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "18.04 LTS",
+                "osVersionId": 28
+            },
+            "operatingsystemVersion": {
+                "id": 28,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "18.04 LTS"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 23,
+                "name": "Brussel Interxion 1 Zone 1 (IX1-1)"
+            },
+            "networks": [
+                {
+                    "id": 4760,
+                    "mac": "52:54:f9:cc:60:aa",
+                    "networkId": 629,
+                    "name": "level27_public_12",
+                    "uid": "c69069c5-42e2-a8e4-6dff-6012f967c772",
+                    "netIpv4": "185.3.217.0",
+                    "netGatewayv4": "185.3.217.1",
+                    "netMaskv4": 24,
+                    "netIpv6": "2a02:5b40:0004:0228:0000:0000:0000:0000",
+                    "netGatewayv6": "2a02:5b40:0004:0228:0000:0000:0000:0001",
+                    "netMaskv6": 64,
+                    "netPublic": true,
+                    "netCustomer": false,
+                    "netInternal": false,
+                    "vlan": 228,
+                    "ips": [
+                        {
+                            "id": 6447,
+                            "publicIpv4": "185.3.217.208",
+                            "ipv4": null,
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "xibo-digitalsignage.level27.eu"
+                        },
+                        {
+                            "id": 6448,
+                            "publicIpv4": null,
+                            "ipv4": null,
+                            "publicIpv6": "2a02:5b40:0004:0228:0000:0000:0000:00bd",
+                            "ipv6": null,
+                            "hostname": "xibo-digitalsignage.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 151
+                },
+                {
+                    "id": 4761,
+                    "mac": "52:54:1b:30:ca:d8",
+                    "networkId": 636,
+                    "name": "level27_internal_22",
+                    "uid": "fb7f5b41-e584-f264-c982-b729950c5dd4",
+                    "netIpv4": "172.20.217.0",
+                    "netGatewayv4": "172.20.217.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 229,
+                    "ips": [
+                        {
+                            "id": 6449,
+                            "publicIpv4": null,
+                            "ipv4": "172.20.217.209",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "xibo-digitalsignage.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "10.0.0.0\/8",
+                        "172.16.0.0\/12",
+                        "192.168.0.0\/16"
+                    ],
+                    "destinationv6": [],
+                    "netslotNumber": 152
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "diskspace": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "cpu": {
+                    "unit": "%",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": 1647609610,
+            "billingStatus": "ok",
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 1892,
+                "name": "hv041"
+            }
+        },
+        {
+            "id": 3129,
+            "uid": "a7089303-9f3e-d434-1959-84e1375fe940",
+            "hostname": "dhcp-server.level27.eu",
+            "fqdn": "8b194668e.l27powered.eu",
+            "name": "dhcp-server.level27.eu",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 2,
+            "memory": 2,
+            "disk": "30.0",
+            "monitoringEnabled": false,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 1,
+                "name": "Level27 BV"
+            },
+            "systemimage": {
+                "id": 240,
+                "name": "ubuntu_2004lts_server",
+                "externalId": "ubuntu_2004lts_server",
+                "templateId": 1,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS",
+                "osVersionId": 32
+            },
+            "operatingsystemVersion": {
+                "id": 32,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 27,
+                "name": "Brussel LCL Diegem Zone 1 (LCL1)"
+            },
+            "networks": [
+                {
+                    "id": 4747,
+                    "mac": "52:54:72:46:44:af",
+                    "networkId": 571,
+                    "name": "level27_internal_6",
+                    "uid": "34bf2203-8918-d374-8d47-2948c2819e6e",
+                    "netIpv4": "172.25.17.0",
+                    "netGatewayv4": "172.25.17.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 410,
+                    "ips": [
+                        {
+                            "id": 6431,
+                            "publicIpv4": null,
+                            "ipv4": "172.25.17.71",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "dhcp-server.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 138
+                },
+                {
+                    "id": 4749,
+                    "mac": "52:54:6d:99:30:1e",
+                    "networkId": 601,
+                    "name": "level27_internal_17",
+                    "uid": "e0e9cea4-ce97-bad4-6d51-54c9c7727969",
+                    "netIpv4": "172.20.3.0",
+                    "netGatewayv4": "172.20.3.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 207,
+                    "ips": [],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default",
+                        "default"
+                    ],
+                    "netslotNumber": 140
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "diskspace": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "cpu": {
+                    "unit": "%",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": null,
+            "billingStatus": null,
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 3028,
+                "name": "hv060"
+            }
+        },
+        {
+            "id": 3127,
+            "uid": "90ad5412-21ed-62f4-31b4-4833fd7fde7a",
+            "hostname": "anais-sony-web1.level27.eu",
+            "fqdn": "8f75008db.l27powered.eu",
+            "name": "anais-sony-web1",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 2,
+            "memory": 4,
+            "disk": "60.0",
+            "monitoringEnabled": true,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 1,
+                "name": "Level27 BV"
+            },
+            "systemimage": {
+                "id": 240,
+                "name": "ubuntu_2004lts_server",
+                "externalId": "ubuntu_2004lts_server",
+                "templateId": 1,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS",
+                "osVersionId": 32
+            },
+            "operatingsystemVersion": {
+                "id": 32,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 20,
+                "name": "Brussel Interxion 2 (IX2)"
+            },
+            "networks": [
+                {
+                    "id": 4739,
+                    "mac": "52:54:ac:e5:df:01",
+                    "networkId": 539,
+                    "name": "level27_public_3",
+                    "uid": "6d1eef01-8c2b-7e64-6101-9125b43ad86f",
+                    "netIpv4": "91.223.195.0",
+                    "netGatewayv4": "91.223.195.1",
+                    "netMaskv4": 24,
+                    "netIpv6": "2a02:5b40:0004:0219:0000:0000:0000:0000",
+                    "netGatewayv6": "2a02:5b40:0004:0219:0000:0000:0000:0001",
+                    "netMaskv6": 64,
+                    "netPublic": true,
+                    "netCustomer": false,
+                    "netInternal": false,
+                    "vlan": 219,
+                    "ips": [
+                        {
+                            "id": 6420,
+                            "publicIpv4": "91.223.195.12",
+                            "ipv4": null,
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "anais-sony-web1.level27.eu"
+                        },
+                        {
+                            "id": 6421,
+                            "publicIpv4": null,
+                            "ipv4": null,
+                            "publicIpv6": "2a02:5b40:0004:0219:0000:0000:0000:000c",
+                            "ipv6": null,
+                            "hostname": "anais-sony-web1.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 130
+                },
+                {
+                    "id": 4740,
+                    "mac": "52:54:61:79:a9:76",
+                    "networkId": 540,
+                    "name": "level27_internal_2",
+                    "uid": "4121bf88-8bf1-8d64-f5b7-041dc558c4c0",
+                    "netIpv4": "172.20.195.0",
+                    "netGatewayv4": "172.20.195.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 220,
+                    "ips": [
+                        {
+                            "id": 6422,
+                            "publicIpv4": null,
+                            "ipv4": "172.20.195.15",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "anais-sony-web1.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "10.0.0.0\/8",
+                        "172.16.0.0\/12",
+                        "192.168.0.0\/16"
+                    ],
+                    "destinationv6": [],
+                    "netslotNumber": 131
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "cpu": {
+                    "unit": "%",
+                    "max": 100,
+                    "value": 1.5201388888898605955546372570097446441650390625,
+                    "statusCategory": "grey"
+                },
+                "diskspace": {
+                    "unit": "GB",
+                    "max": 58.009624481201171875,
+                    "value": 26.98928070068359375,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "max": 3.839641571044921875,
+                    "value": 1.708709716796875,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": null,
+            "billingStatus": null,
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 1930,
+                "name": "hv002"
+            }
+        },
+        {
+            "id": 3125,
+            "uid": "94e4de2f-7cc4-8124-a1fe-bde34d019c3c",
+            "hostname": "fellow27-web1.level27.eu",
+            "fqdn": "3b912cd37.l27powered.eu",
+            "name": "fellow27-web1.level27.eu",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 2,
+            "memory": 4,
+            "disk": "30.0",
+            "monitoringEnabled": false,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 1,
+                "name": "Level27 BV"
+            },
+            "systemimage": {
+                "id": 240,
+                "name": "ubuntu_2004lts_server",
+                "externalId": "ubuntu_2004lts_server",
+                "templateId": 1,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS",
+                "osVersionId": 32
+            },
+            "operatingsystemVersion": {
+                "id": 32,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 23,
+                "name": "Brussel Interxion 1 Zone 1 (IX1-1)"
+            },
+            "networks": [
+                {
+                    "id": 4737,
+                    "mac": "52:54:c4:6f:97:23",
+                    "networkId": 629,
+                    "name": "level27_public_12",
+                    "uid": "c69069c5-42e2-a8e4-6dff-6012f967c772",
+                    "netIpv4": "185.3.217.0",
+                    "netGatewayv4": "185.3.217.1",
+                    "netMaskv4": 24,
+                    "netIpv6": "2a02:5b40:0004:0228:0000:0000:0000:0000",
+                    "netGatewayv6": "2a02:5b40:0004:0228:0000:0000:0000:0001",
+                    "netMaskv6": 64,
+                    "netPublic": true,
+                    "netCustomer": false,
+                    "netInternal": false,
+                    "vlan": 228,
+                    "ips": [
+                        {
+                            "id": 6417,
+                            "publicIpv4": "185.3.217.184",
+                            "ipv4": null,
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "fellow27-web1.level27.eu"
+                        },
+                        {
+                            "id": 6418,
+                            "publicIpv4": null,
+                            "ipv4": null,
+                            "publicIpv6": "2a02:5b40:0004:0228:0000:0000:0000:00ab",
+                            "ipv6": null,
+                            "hostname": "fellow27-web1.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 128
+                },
+                {
+                    "id": 4738,
+                    "mac": "52:54:3c:a2:a1:92",
+                    "networkId": 636,
+                    "name": "level27_internal_22",
+                    "uid": "fb7f5b41-e584-f264-c982-b729950c5dd4",
+                    "netIpv4": "172.20.217.0",
+                    "netGatewayv4": "172.20.217.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 229,
+                    "ips": [
+                        {
+                            "id": 6419,
+                            "publicIpv4": null,
+                            "ipv4": "172.20.217.194",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "fellow27-web1.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "10.0.0.0\/8",
+                        "172.16.0.0\/12",
+                        "192.168.0.0\/16"
+                    ],
+                    "destinationv6": [],
+                    "netslotNumber": 129
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "diskspace": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "cpu": {
+                    "unit": "%",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": null,
+            "billingStatus": null,
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 1892,
+                "name": "hv041"
+            }
+        },
+        {
+            "id": 3123,
+            "uid": "6f257d55-81bb-5084-39de-71566ce7d479",
+            "hostname": "16c96b8a2.l27powered.eu",
+            "fqdn": "16c96b8a2.l27powered.eu",
+            "name": "lensonline-rds7",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 8,
+            "memory": 32,
+            "disk": "160.0",
+            "monitoringEnabled": true,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 2918,
+                "name": "Lens Group BVBA"
+            },
+            "systemimage": {
+                "id": 237,
+                "name": "windows_2019_server",
+                "externalId": "windows_2019_server",
+                "templateId": 1,
+                "osId": 4,
+                "osName": "Windows",
+                "osType": "windows",
+                "osVersion": "2019",
+                "osVersionId": 30
+            },
+            "operatingsystemVersion": {
+                "id": 30,
+                "osId": 4,
+                "osName": "Windows",
+                "osType": "windows",
+                "osVersion": "2019"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 22,
+                "name": "Brussel Interxion 2 (IX2,High frequency)"
+            },
+            "networks": [
+                {
+                    "id": 4732,
+                    "mac": "52:54:a0:38:4a:e0",
+                    "networkId": 562,
+                    "name": "level27_public_5",
+                    "uid": "73142f85-2e06-38e4-3521-ebc7f7a18a8a",
+                    "netIpv4": "194.32.152.0",
+                    "netGatewayv4": "194.32.152.1",
+                    "netMaskv4": 24,
+                    "netIpv6": "2a02:5b41:0004:0401:0000:0000:0000:0000",
+                    "netGatewayv6": "2a02:5b41:0004:0401:0000:0000:0000:0001",
+                    "netMaskv6": 64,
+                    "netPublic": true,
+                    "netCustomer": false,
+                    "netInternal": false,
+                    "vlan": 401,
+                    "ips": [
+                        {
+                            "id": 6410,
+                            "publicIpv4": "194.32.152.11",
+                            "ipv4": null,
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "16c96b8a2.l27powered.eu"
+                        },
+                        {
+                            "id": 6411,
+                            "publicIpv4": null,
+                            "ipv4": null,
+                            "publicIpv6": "2a02:5b41:0004:0401:0000:0000:0000:000c",
+                            "ipv6": null,
+                            "hostname": "16c96b8a2.l27powered.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 123
+                },
+                {
+                    "id": 4733,
+                    "mac": "52:54:47:4b:a7:1e",
+                    "networkId": 556,
+                    "name": "level27_internal_4",
+                    "uid": "e0c3fe5a-2b75-0044-1936-ec5e6fda16ab",
+                    "netIpv4": "172.25.152.0",
+                    "netGatewayv4": "172.25.152.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 402,
+                    "ips": [
+                        {
+                            "id": 6412,
+                            "publicIpv4": null,
+                            "ipv4": "172.25.152.9",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "lensonline-rds7.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "10.0.0.0\/8",
+                        "172.16.0.0\/12",
+                        "192.168.0.0\/16"
+                    ],
+                    "destinationv6": [],
+                    "netslotNumber": 124
+                },
+                {
+                    "id": 4734,
+                    "mac": "52:54:bb:bb:c2:f9",
+                    "networkId": 599,
+                    "name": "level27_internal_15",
+                    "uid": "b4cf0834-ff3b-30a4-193f-5079a49620e7",
+                    "netIpv4": "172.25.46.0",
+                    "netGatewayv4": "172.25.46.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 527,
+                    "ips": [
+                        {
+                            "id": 6413,
+                            "publicIpv4": null,
+                            "ipv4": "172.25.46.6",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "lensonline-rds7.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "10.0.0.0\/8",
+                        "172.16.0.0\/12",
+                        "192.168.0.0\/16"
+                    ],
+                    "destinationv6": [],
+                    "netslotNumber": 125
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "diskspace": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "cpu": {
+                    "unit": "%",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": 1647298800,
+            "billingStatus": "ok",
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 1929,
+                "name": "hv011"
+            }
+        },
+        {
+            "id": 3122,
+            "uid": "f3faf816-487b-dcd4-3d06-ecf905fe5ab9",
+            "hostname": "315a730b1.l27powered.eu",
+            "fqdn": "315a730b1.l27powered.eu",
+            "name": "gbl-apunta-web2",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 4,
+            "memory": 4,
+            "disk": "150.0",
+            "monitoringEnabled": true,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 2603,
+                "name": "GBL Digital Agency"
+            },
+            "systemimage": {
+                "id": 188,
+                "name": "ubuntu_1804lts_server",
+                "externalId": "",
+                "templateId": 1,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "18.04 LTS",
+                "osVersionId": 28
+            },
+            "operatingsystemVersion": {
+                "id": 28,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "18.04 LTS"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 23,
+                "name": "Brussel Interxion 1 Zone 1 (IX1-1)"
+            },
+            "networks": [
+                {
+                    "id": 4731,
+                    "mac": "52:54:2c:71:12:cc",
+                    "networkId": 541,
+                    "name": "level27_public_4",
+                    "uid": "090a0f08-5d7e-3674-695c-a5b3a72bda62",
+                    "netIpv4": "185.3.216.0",
+                    "netGatewayv4": "185.3.216.1",
+                    "netMaskv4": 24,
+                    "netIpv6": "2a02:5b40:0004:0224:0000:0000:0000:0000",
+                    "netGatewayv6": "2a02:5b40:0004:0224:0000:0000:0000:0001",
+                    "netMaskv6": 64,
+                    "netPublic": true,
+                    "netCustomer": false,
+                    "netInternal": false,
+                    "vlan": 224,
+                    "ips": [
+                        {
+                            "id": 6408,
+                            "publicIpv4": "185.3.216.126",
+                            "ipv4": null,
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "315a730b1.l27powered.eu"
+                        },
+                        {
+                            "id": 6409,
+                            "publicIpv4": null,
+                            "ipv4": null,
+                            "publicIpv6": "2a02:5b40:0004:0224:0000:0000:0000:0051",
+                            "ipv6": null,
+                            "hostname": "315a730b1.l27powered.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 122
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "cpu": {
+                    "unit": "%",
+                    "max": 100,
+                    "value": 7.276701388890302268919185735285282135009765625,
+                    "statusCategory": "grey"
+                },
+                "diskspace": {
+                    "unit": "GB",
+                    "max": 143.6674957275390625,
+                    "value": 109.4283294677734375,
+                    "statusCategory": "orange"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "max": 3.8519439697265625,
+                    "value": 2.2272796630859375,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": 1647338096,
+            "billingStatus": "ok",
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 1892,
+                "name": "hv041"
+            }
+        },
+        {
+            "id": 3115,
+            "uid": "d5994450-ffac-29a4-e56e-e4d1cdf47fd7",
+            "hostname": "hv062.cloud.level27.be",
+            "fqdn": "f71ff3f29.l27powered.eu",
+            "name": "hv062",
+            "type": "kvmhost",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 576,
+            "memory": 528,
+            "disk": "16384.0",
+            "monitoringEnabled": false,
+            "managementType": "professional",
+            "organisation": {
+                "id": 1,
+                "name": "Level27 BV"
+            },
+            "systemimage": null,
+            "operatingsystemVersion": {
+                "id": 32,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS"
+            },
+            "providerId": null,
+            "provider": null,
+            "providerApi": null,
+            "systemproviderConfiguration": null,
+            "region": "be",
+            "zone": {
+                "id": 27,
+                "name": "Brussel LCL Diegem Zone 1 (LCL1)"
+            },
+            "networks": [
+                {
+                    "id": 4720,
+                    "mac": "4c:52:62:56:b1:04",
+                    "networkId": null,
+                    "name": null,
+                    "uid": null,
+                    "netIpv4": null,
+                    "netGatewayv4": null,
+                    "netMaskv4": null,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": null,
+                    "netPublic": null,
+                    "netCustomer": null,
+                    "netInternal": null,
+                    "vlan": null,
+                    "ips": [
+                        {
+                            "id": 6395,
+                            "publicIpv4": null,
+                            "ipv4": "172.24.0.162",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": null
+                        }
+                    ],
+                    "destinationv4": [],
+                    "destinationv6": [],
+                    "netslotNumber": 111
+                }
+            ],
+            "publicNetworking": false,
+            "statsSummary": {
+                "cpu": {
+                    "unit": "%",
+                    "max": 100,
+                    "value": 0.470396412036990341221098788082599639892578125,
+                    "statusCategory": "grey"
+                },
+                "diskspace": {
+                    "unit": "GB",
+                    "max": 218.438831329345703125,
+                    "value": 49.930324554443359375,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "max": 754.482883453369140625,
+                    "value": 543.58179473876953125,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": 1647269191,
+            "billingStatus": "ok",
+            "externalInfo": null,
+            "parentsystem": null
+        },
+        {
+            "id": 3113,
+            "uid": "5ebf28af-d8ae-5fc4-a9a5-b2a352f77a26",
+            "hostname": "linstor5.level27.eu",
+            "fqdn": "f16637951.l27powered.eu",
+            "name": "linstor5",
+            "type": "backup",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 32,
+            "memory": 262,
+            "disk": "674.0",
+            "monitoringEnabled": false,
+            "managementType": "basic",
+            "organisation": {
+                "id": 1,
+                "name": "Level27 BV"
+            },
+            "systemimage": null,
+            "operatingsystemVersion": {
+                "id": 32,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS"
+            },
+            "providerId": null,
+            "provider": null,
+            "providerApi": null,
+            "systemproviderConfiguration": null,
+            "region": null,
+            "zone": null,
+            "networks": [
+                {
+                    "id": 4718,
+                    "mac": "ca:39:70:ec:35:30",
+                    "networkId": 704,
+                    "name": "level27_internal_37",
+                    "uid": "c3d55350-4cb2-e494-6977-aa553e3513f2",
+                    "netIpv4": "172.30.13.0",
+                    "netGatewayv4": "172.30.13.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": null,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 9999,
+                    "ips": [
+                        {
+                            "id": 6394,
+                            "publicIpv4": null,
+                            "ipv4": "172.30.13.7",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": null
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 109
+                }
+            ],
+            "publicNetworking": false,
+            "statsSummary": {
+                "diskspace": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "cpu": {
+                    "unit": "%",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": 1647266264,
+            "billingStatus": "ok",
+            "externalInfo": null,
+            "parentsystem": null
+        },
+        {
+            "id": 3107,
+            "uid": "704ca5c0-4700-cd74-2164-5b599dfa61b5",
+            "hostname": "diegem-test.level27.eu",
+            "fqdn": "c95e1bfcb.l27powered.eu",
+            "name": "diegem-test.level27.eu",
+            "type": "kvmguest",
+            "status": "to_delete",
+            "statusCategory": "grey",
+            "runningStatus": "stopped",
+            "runningStatusCategory": "orange",
+            "cpu": 2,
+            "memory": 4,
+            "disk": "60.0",
+            "monitoringEnabled": false,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 1,
+                "name": "Level27 BV"
+            },
+            "systemimage": {
+                "id": 240,
+                "name": "ubuntu_2004lts_server",
+                "externalId": "ubuntu_2004lts_server",
+                "templateId": 1,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS",
+                "osVersionId": 32
+            },
+            "operatingsystemVersion": {
+                "id": 32,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 27,
+                "name": "Brussel LCL Diegem Zone 1 (LCL1)"
+            },
+            "networks": [
+                {
+                    "id": 4712,
+                    "mac": "52:54:f2:ec:22:0b",
+                    "networkId": 571,
+                    "name": "level27_internal_6",
+                    "uid": "34bf2203-8918-d374-8d47-2948c2819e6e",
+                    "netIpv4": "172.25.17.0",
+                    "netGatewayv4": "172.25.17.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 410,
+                    "ips": [
+                        {
+                            "id": 6392,
+                            "publicIpv4": null,
+                            "ipv4": "172.25.17.69",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "diegem-test.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 103
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "diskspace": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "cpu": {
+                    "unit": "%",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": 1647255119,
+            "billingStatus": "ok",
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 3054,
+                "name": "hv061"
+            }
+        },
+        {
+            "id": 3106,
+            "uid": "b771cf24-76e8-ecf4-2d52-59503668abcf",
+            "hostname": "compufit-jumphost.level27.eu",
+            "fqdn": "55f6ac2f8.l27powered.eu",
+            "name": "compufit-jumphost",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 2,
+            "memory": 4,
+            "disk": "50.0",
+            "monitoringEnabled": false,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 1,
+                "name": "Level27 BV"
+            },
+            "systemimage": {
+                "id": 237,
+                "name": "windows_2019_server",
+                "externalId": "windows_2019_server",
+                "templateId": 1,
+                "osId": 4,
+                "osName": "Windows",
+                "osType": "windows",
+                "osVersion": "2019",
+                "osVersionId": 30
+            },
+            "operatingsystemVersion": {
+                "id": 30,
+                "osId": 4,
+                "osName": "Windows",
+                "osType": "windows",
+                "osVersion": "2019"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 20,
+                "name": "Brussel Interxion 2 (IX2)"
+            },
+            "networks": [
+                {
+                    "id": 4711,
+                    "mac": "52:54:6a:fc:85:cc",
+                    "networkId": 626,
+                    "name": "level27_cust_62",
+                    "uid": "d8728901-e1aa-7a64-91e4-147aea76786f",
+                    "netIpv4": "172.20.93.0",
+                    "netGatewayv4": "172.20.93.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": true,
+                    "netInternal": false,
+                    "vlan": 367,
+                    "ips": [
+                        {
+                            "id": 6391,
+                            "publicIpv4": null,
+                            "ipv4": "172.20.93.5",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "compufit-jumphost.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 102
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "diskspace": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                },
+                "cpu": {
+                    "unit": "%",
+                    "value": null,
+                    "max": null,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": null,
+            "billingStatus": null,
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 1944,
+                "name": "hv005"
+            }
+        },
+        {
+            "id": 3098,
+            "uid": "49005ae5-2448-fdc4-25db-1283b92881b7",
+            "hostname": "370b3331b.l27powered.eu",
+            "fqdn": "370b3331b.l27powered.eu",
+            "name": "climapulse-worker1",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 4,
+            "memory": 8,
+            "disk": "30.0",
+            "monitoringEnabled": true,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 1525,
+                "name": "Climapulse NV"
+            },
+            "systemimage": {
+                "id": 240,
+                "name": "ubuntu_2004lts_server",
+                "externalId": "ubuntu_2004lts_server",
+                "templateId": 1,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS",
+                "osVersionId": 32
+            },
+            "operatingsystemVersion": {
+                "id": 32,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 22,
+                "name": "Brussel Interxion 2 (IX2,High frequency)"
+            },
+            "networks": [
+                {
+                    "id": 4705,
+                    "mac": "52:54:de:c7:0b:66",
+                    "networkId": 573,
+                    "name": "level27_internal_7",
+                    "uid": "589dcb65-a63e-5154-f51f-8bc6febe65bf",
+                    "netIpv4": "172.25.153.0",
+                    "netGatewayv4": "172.25.153.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 408,
+                    "ips": [
+                        {
+                            "id": 6385,
+                            "publicIpv4": null,
+                            "ipv4": "172.25.153.47",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "climapulse-worker1.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 96
+                },
+                {
+                    "id": 4706,
+                    "mac": "52:54:48:88:34:7f",
+                    "networkId": 564,
+                    "name": "level27_cust_19",
+                    "uid": "1066498f-57c4-6eb4-a5ad-354f22fe2c60",
+                    "netIpv4": "172.20.54.0",
+                    "netGatewayv4": "172.20.54.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": true,
+                    "netInternal": false,
+                    "vlan": 534,
+                    "ips": [
+                        {
+                            "id": 6386,
+                            "publicIpv4": null,
+                            "ipv4": "172.20.54.6",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "climapulse-worker1.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [],
+                    "destinationv6": [],
+                    "netslotNumber": 97
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "cpu": {
+                    "unit": "%",
+                    "max": 100,
+                    "value": 0.97069444444383634618134237825870513916015625,
+                    "statusCategory": "grey"
+                },
+                "diskspace": {
+                    "unit": "GB",
+                    "max": 25.527500152587890625,
+                    "value": 5.60399627685546875,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "max": 7.770832061767578125,
+                    "value": 0.33811187744140625,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": 1649935047,
+            "billingStatus": "ok",
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 1927,
+                "name": "hv013"
+            }
+        },
+        {
+            "id": 3094,
+            "uid": "32463cbe-237c-9524-210c-a03797986947",
+            "hostname": "web56.level27.eu",
+            "fqdn": "20fdd1b56.l27powered.eu",
+            "name": "web56",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 4,
+            "memory": 6,
+            "disk": "60.0",
+            "monitoringEnabled": true,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 1,
+                "name": "Level27 BV"
+            },
+            "systemimage": {
+                "id": 188,
+                "name": "ubuntu_1804lts_server",
+                "externalId": "",
+                "templateId": 1,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "18.04 LTS",
+                "osVersionId": 28
+            },
+            "operatingsystemVersion": {
+                "id": 28,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "18.04 LTS"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 24,
+                "name": "Brussel Interxion 1 Zone 2 (IX1-2)"
+            },
+            "networks": [
+                {
+                    "id": 4696,
+                    "mac": "52:54:72:1f:20:de",
+                    "networkId": 541,
+                    "name": "level27_public_4",
+                    "uid": "090a0f08-5d7e-3674-695c-a5b3a72bda62",
+                    "netIpv4": "185.3.216.0",
+                    "netGatewayv4": "185.3.216.1",
+                    "netMaskv4": 24,
+                    "netIpv6": "2a02:5b40:0004:0224:0000:0000:0000:0000",
+                    "netGatewayv6": "2a02:5b40:0004:0224:0000:0000:0000:0001",
+                    "netMaskv6": 64,
+                    "netPublic": true,
+                    "netCustomer": false,
+                    "netInternal": false,
+                    "vlan": 224,
+                    "ips": [
+                        {
+                            "id": 6371,
+                            "publicIpv4": "185.3.216.92",
+                            "ipv4": null,
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "web56.level27.eu"
+                        },
+                        {
+                            "id": 6372,
+                            "publicIpv4": null,
+                            "ipv4": null,
+                            "publicIpv6": "2a02:5b40:0004:0224:0000:0000:0000:003e",
+                            "ipv6": null,
+                            "hostname": "web56.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 87
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "cpu": {
+                    "unit": "%",
+                    "max": 100,
+                    "value": 2.3820486111112160187985864467918872833251953125,
+                    "statusCategory": "grey"
+                },
+                "diskspace": {
+                    "unit": "GB",
+                    "max": 55.066253662109375,
+                    "value": 38.0989990234375,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "max": 5.820873260498046875,
+                    "value": 2.136516571044921875,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": 1646728059,
+            "billingStatus": "ok",
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 1939,
+                "name": "vm042"
+            }
+        },
+        {
+            "id": 3087,
+            "uid": "6556add6-9884-2c24-71a1-148d6d603b8c",
+            "hostname": "582784d38.l27powered.eu",
+            "fqdn": "582784d38.l27powered.eu",
+            "name": "thefactory-pkp-lb2",
+            "type": "kvmguest",
+            "status": "ok",
+            "statusCategory": "green",
+            "runningStatus": "running",
+            "runningStatusCategory": "green",
+            "cpu": 4,
+            "memory": 4,
+            "disk": "30.0",
+            "monitoringEnabled": false,
+            "managementType": "professional_level27",
+            "organisation": {
+                "id": 2146,
+                "name": "The Factory bv"
+            },
+            "systemimage": {
+                "id": 240,
+                "name": "ubuntu_2004lts_server",
+                "externalId": "ubuntu_2004lts_server",
+                "templateId": 1,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS",
+                "osVersionId": 32
+            },
+            "operatingsystemVersion": {
+                "id": 32,
+                "osId": 1,
+                "osName": "Ubuntu",
+                "osType": "linux",
+                "osVersion": "20.04 LTS"
+            },
+            "providerId": 1,
+            "provider": "Level27",
+            "providerApi": "level27",
+            "systemproviderConfiguration": {
+                "id": 45,
+                "externalId": "flexible",
+                "name": "Level27 Flexible",
+                "description": "Level27 Flexible configuration"
+            },
+            "region": "be",
+            "zone": {
+                "id": 23,
+                "name": "Brussel Interxion 1 Zone 1 (IX1-1)"
+            },
+            "networks": [
+                {
+                    "id": 4692,
+                    "mac": "52:54:17:83:97:06",
+                    "networkId": 541,
+                    "name": "level27_public_4",
+                    "uid": "090a0f08-5d7e-3674-695c-a5b3a72bda62",
+                    "netIpv4": "185.3.216.0",
+                    "netGatewayv4": "185.3.216.1",
+                    "netMaskv4": 24,
+                    "netIpv6": "2a02:5b40:0004:0224:0000:0000:0000:0000",
+                    "netGatewayv6": "2a02:5b40:0004:0224:0000:0000:0000:0001",
+                    "netMaskv6": 64,
+                    "netPublic": true,
+                    "netCustomer": false,
+                    "netInternal": false,
+                    "vlan": 224,
+                    "ips": [
+                        {
+                            "id": 6365,
+                            "publicIpv4": "185.3.216.2",
+                            "ipv4": null,
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "582784d38.l27powered.eu"
+                        },
+                        {
+                            "id": 6366,
+                            "publicIpv4": null,
+                            "ipv4": null,
+                            "publicIpv6": "2a02:5b40:0004:0224:0000:0000:0000:0002",
+                            "ipv6": null,
+                            "hostname": "582784d38.l27powered.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "default"
+                    ],
+                    "destinationv6": [
+                        "default"
+                    ],
+                    "netslotNumber": 83
+                },
+                {
+                    "id": 4693,
+                    "mac": "52:54:90:bd:5e:8a",
+                    "networkId": 632,
+                    "name": "level27_internal_21",
+                    "uid": "3bdebd3a-e990-16a4-91a9-9aed2e2c9664",
+                    "netIpv4": "172.20.17.0",
+                    "netGatewayv4": "172.20.17.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": 0,
+                    "netPublic": false,
+                    "netCustomer": false,
+                    "netInternal": true,
+                    "vlan": 226,
+                    "ips": [
+                        {
+                            "id": 6367,
+                            "publicIpv4": null,
+                            "ipv4": "172.20.17.124",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "thefactory-pkp-lb2.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [
+                        "10.0.0.0\/8",
+                        "172.16.0.0\/12",
+                        "192.168.0.0\/16"
+                    ],
+                    "destinationv6": [],
+                    "netslotNumber": 84
+                },
+                {
+                    "id": 4694,
+                    "mac": "52:54:09:05:87:e4",
+                    "networkId": 717,
+                    "name": "level27_cust_122",
+                    "uid": "4978df62-d4e3-1824-eda5-d61b963f5e9e",
+                    "netIpv4": "172.20.106.0",
+                    "netGatewayv4": "172.20.106.1",
+                    "netMaskv4": 24,
+                    "netIpv6": null,
+                    "netGatewayv6": null,
+                    "netMaskv6": null,
+                    "netPublic": false,
+                    "netCustomer": true,
+                    "netInternal": false,
+                    "vlan": 379,
+                    "ips": [
+                        {
+                            "id": 6368,
+                            "publicIpv4": null,
+                            "ipv4": "172.20.106.5",
+                            "publicIpv6": null,
+                            "ipv6": null,
+                            "hostname": "thefactory-pkp-lb2.level27.eu"
+                        }
+                    ],
+                    "destinationv4": [],
+                    "destinationv6": [],
+                    "netslotNumber": 85
+                }
+            ],
+            "publicNetworking": true,
+            "statsSummary": {
+                "cpu": {
+                    "unit": "%",
+                    "max": 100,
+                    "value": 0.571770833334682038184837438166141510009765625,
+                    "statusCategory": "grey"
+                },
+                "diskspace": {
+                    "unit": "GB",
+                    "max": 25.527500152587890625,
+                    "value": 4.918209075927734375,
+                    "statusCategory": "grey"
+                },
+                "memory": {
+                    "unit": "GB",
+                    "max": 3.84926605224609375,
+                    "value": 0.39557647705078125,
+                    "statusCategory": "grey"
+                }
+            },
+            "dtExpires": null,
+            "billingStatus": null,
+            "externalInfo": null,
+            "parentsystem": {
+                "id": 1880,
+                "name": "hv046"
+            }
+        }
+    ]
+}
